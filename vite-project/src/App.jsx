@@ -12,6 +12,10 @@ function App() {
     console.log("value added ", counter);
     if (counter < 25)
       setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
+    setCounter(counter + 1)
   }
   const removeValue = () => {
     if (counter > 0)
